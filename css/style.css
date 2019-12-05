@@ -420,8 +420,32 @@ section.bgground-middle{
     font: 300 18px/28px Montserrat;
     color: #161616;
 }
-
-
+#posts-relacionados{
+    margin-top: 40px;
+}
+#posts-relacionados h2{
+    text-align: left;
+    font: 700 32px/28px Montserrat;
+    letter-spacing: 0;
+    color: #161616;
+}
+#posts-relacionados .card-deck{
+    margin-top: 30px;
+}
+#posts-relacionados .card-img-top{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#posts-relacionados .card-title{
+    text-align: left;
+    font: 700 24px/32px Raleway;
+    color: #000000DE;
+}
+#posts-relacionados .card-text{
+    text-align: left;
+    font: 400 12px/20px Montserrat;
+    color: #000000DE;
+}
 
 
 
