@@ -1,5 +1,6 @@
 /* Importações */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Raleway:300,400,500,700,800&display=swap');
+@import 'screen.css';
 /*
 Montserrat
 Light -> 300
@@ -517,23 +518,6 @@ section.bgground-middle{
     opacity: 1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Footer */
 #boxFour{
     background: url("../img/backgrounds/rodape.png") no-repeat;
@@ -595,6 +579,92 @@ section.bgground-middle{
     color: #161616;
 }
 
+/* --------------- */
+
+@media only screen and (max-width: 768px){
+    #body-with-background{
+        background: url("../img/backgrounds/body.jpg") repeat;
+    }
+    #menu-header div.nav-item{
+        margin-right: 0;
+    }
+    .navbar-toggler i{
+        font-size: 55px;
+    }
+    .nav-item-btn{
+        padding-left: 0;
+        margin: 0 auto;
+    }
+    #boxOne{
+        margin-top: 50px;
+    }
+    #boxOne .callOne h1{
+        font: Bold 60px/74px Raleway;
+    }
+    #boxOne .callOne h2{
+        font: 300 40px/74px Raleway;
+    }
+    #boxOne .callTwo{
+        margin-top: 50px;
+        padding: 0;
+    }
+    #boxOne .callTwo h3{        
+        font: 400 20px/40px Montserrat;
+    }
+    #boxThree p.callThree{
+        margin: 25px auto 90px;
+        text-align: center;
+        font: 400 18px/30px Montserrat;
+    }
+    #boxThree .card-deck .card .card-text{
+        margin: 0 auto;
+    }
+    .owl-theme .owl-nav.disabled+.owl-dots{
+        margin-bottom: 50px;
+    }
+    #boxFour .form-control{
+        width: 100%;
+    }
+    #boxFour{
+        height: auto;
+        background-color: #0087CB;
+    }
+    #boxFour .jumbotron{
+        width: 95%;
+        margin-top: 0;
+        margin: 0 auto 30px;
+    }
+    #boxFour .boxRodape{
+        padding: 0 50px;
+        margin-bottom: 30px;
+    }
+    #boxFour .ofcdurio{
+        margin: 30px 0;
+    } 
+    #content-quem-somos{
+        margin-bottom: 60px;
+    }   
+    #content-quem-somos .card-body{
+        padding: 0;
+    }
+    #boxContent .obs{
+        margin: 80px auto;
+    }
+}
+@media only screen and (max-width: 425px){
+    #capa{
+        height: 200px;
+        background-position: unset !important;
+    }
+    #quem-somos .menu-interno ul{
+        border-right: none;
+    }
+    #content-quem-somos, #content-nossa-historia{
+        margin-left: 0;
+    }
+}
+
+/* --------------- */
 
 /* My classes */
 .selected{
