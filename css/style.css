@@ -446,8 +446,76 @@ section.bgground-middle{
     font: 400 12px/20px Montserrat;
     color: #000000DE;
 }
-
-
+/* Pagina Contato */
+#contato-perfil .img-perfil img{
+    width: 163px;
+    height: 163px;
+}
+#contato-perfil ul{
+    margin-top: 16px;
+}
+#contato-perfil ul li{
+    display: block;
+    text-align: center;
+}
+#contato-perfil .contato-nome{
+    font: 700 23px/26px Montserrat;
+    color: #000000DE;
+}
+#contato-perfil .contato-profissao{
+    font: 400 16px/26px Montserrat;
+    color: #000000DE;
+}
+#contato-perfil .contato-telefone a, #contato-perfil .contato-email a{
+    font: 400 14px/25px Montserrat;
+    color: #000000DE;
+    text-decoration: none;
+}
+#contato #content-quem-somos{
+    padding-bottom: 60px;
+    border-bottom: 1px solid #AEAEAE;
+}
+#formulario{
+    margin-top: 60px;
+}
+#formulario form{
+    width: 100%;
+    height: auto;
+    margin-top: 35px;
+    padding: 55px 45px 25px;
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+}
+#formulario form label{
+    text-align: left;
+    font: 400 17px/20px Montserrat;
+    color: #161616;
+}
+#formulario form input{
+    width: 100%;
+    height: 52px;
+}
+#formulario form textarea{
+    width: 100%;
+    height: 180px
+}
+#formulario button.btn-fale-conosco{
+    width: 235px;
+    height: 52px;
+    margin-top: 30px;
+    font: 700 20px/24px Montserrat;
+    color: #FFFFFF;
+}
+#formulario button.btn-fale-conosco .fa-arrow-circle-right{
+    font-size: 25px;
+    vertical-align: middle;
+}
+#formulario #info{
+    margin-top: 8px;
+    font: 300 9px/11px Montserrat;
+    letter-spacing: 0;
+    color: #161616;
+    opacity: 1;
+}
 
 
 
@@ -546,6 +614,9 @@ section.bgground-middle{
 }
 .no-border{
     border: none !important;
+}
+.my-border-right{
+    border-right: 1px solid #00B4DB;
 }
 .border-8{
     border-radius: 8px;
