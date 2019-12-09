@@ -1,6 +1,5 @@
 /* Importações */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Raleway:300,400,500,700,800&display=swap');
-@import 'screen.css';
 /*
 Montserrat
 Light -> 300
@@ -34,7 +33,7 @@ Bold -> 700
 }
 .nav-item-btn{
     padding-top: 30px;
-    padding-left: 50px;
+    padding-left: 104px;
 }
 #btn-contato-header{
     padding: 16px 30px !important;
@@ -93,7 +92,7 @@ Bold -> 700
     color: #FFFFFF;
 }
 #boxOne .callTwo{
-    margin-top: 275px;
+    margin-top: 375px;
     margin-bottom: 130px;
     padding: 0 140px;
 }
@@ -239,6 +238,7 @@ Bold -> 700
 #content-quem-somos .card-deck .card-text{
     font: 400 17px/20px Montserrat;
     color: #161616;
+    margin-bottom: .75rem;
 }
 #content-quem-somos .card-deck .card-hour{
     text-align: center;
@@ -255,6 +255,7 @@ Bold -> 700
     box-shadow: unset;
     color: #0087CB;
     font: 500 18px/22px Montserrat;
+    cursor: unset;
 }
 
 /* Nossa História conteudo */
@@ -641,7 +642,7 @@ section.bgground-middle{
     #boxFour .jumbotron{
         width: 95%;
         margin-top: 0;
-        margin: 0 auto 30px;
+        margin: 25px auto 30px;
     }
     #boxFour .boxRodape{
         padding: 0 50px;
@@ -684,6 +685,12 @@ section.bgground-middle{
     }
 }
 @media only screen and (max-width: 425px){
+    #boxOne .callOne h1{
+        font: Bold 38px Raleway;
+    }
+    #boxOne .callOne h2{
+        font: 300 32px Raleway;
+    }
     #capa{
         height: 200px;
         background-position: unset !important;
@@ -706,9 +713,13 @@ section.bgground-middle{
     #quem-somos #boxCard .card-descricao p{
         margin-left: 0;
         padding: 0 10px;
+        font: 300 16px/30px Montserrat;        
     }
     .box-title{
         font-size: 42px !important;
+    }
+    #boxContent {
+        margin-top: 0;
     }
 }
 @media only screen and (max-width: 320px){
@@ -764,4 +775,8 @@ section.bgground-middle{
 }
 .btn-padrao:active{
     border-color: transparent !important;
+}
+.no-underline{
+    text-decoration: none !important;
+    color: transparent !important;
 }
