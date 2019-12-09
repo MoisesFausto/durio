@@ -34,6 +34,9 @@ $(document).ready(function(){
 
     });
 
+      
+
+
     
     //Menu fixo
     var offset = $('#header').offset().top;
