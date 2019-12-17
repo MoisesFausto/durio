@@ -1,0 +1,812 @@
+/* Importações */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Raleway:300,400,500,700,800|Roboto:700&display=swap');
+/*
+Montserrat
+Light -> 300
+Normal -> 400
+SemiBold -> 600
+Bold -> 700
+
+Raleway
+Light -> 300
+Normal -> 400
+
+Bold -> 700
+*/
+
+#body-with-background{
+    background: url("../img/backgrounds/bghome-top.png") no-repeat top right, url("../img/backgrounds/body.jpg") repeat;
+}
+#body-without-background{
+    background: url("../img/backgrounds/body.jpg") repeat;
+}
+/* Menu Header */
+#menu-header .nav-item .nav-link{
+    padding: 30px 12px;
+    text-align: center;
+    font: normal 20px/28px Raleway;
+    color: #000000;
+    opacity: 1;
+}
+#menu-header div.nav-item{
+    margin-right: 215px;
+}
+.nav-item-btn{
+    padding-top: 30px;
+    padding-left: 104px;
+}
+#btn-contato-header{
+    padding: 16px 30px !important;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 4px #00000029;   
+    text-align: left;
+    font: Bold 16px/19px Raleway;
+    color: #0087CB;
+}
+#btn-contato-header:hover{
+    text-decoration: none;
+}
+.dropdown.dropdown-menu{
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    top: 100%;    
+}
+.dropdown-menu{
+    top: 70%;
+}
+.dropdown-menu, .dropdown-divider{
+    padding: 0;
+    margin: 0;
+}
+.dropdown-item{
+    padding: 18px 60px 18px 10px !important;
+    font-weight: 300;
+    font-family: Raleway;
+}
+
+/* Home - BoxOne */
+#home{
+    background: url("../img/backgrounds/bghome-middle.png") no-repeat 0 500px;
+}
+#boxOne{
+    margin-top: 230px;
+}
+#boxOne .callOne h1{
+    text-align: left;
+    font: Bold 64px/74px Raleway;
+    color: #161616;
+}
+#boxOne .callOne h2{
+    margin-bottom: 28px;
+    text-align: left;
+    font: 300 61px/74px Raleway;
+    color: #161616;
+}
+.btn-padrao.btn-header{
+    width: 206px;
+    height: 78px;
+    padding: 25px 0;
+    text-align: center;
+    font: Bold 24px/26px Roboto;
+    color: #FFFFFF;
+}
+#boxOne .callTwo{
+    margin-top: 375px;
+    margin-bottom: 130px;
+    padding: 0 140px;
+}
+#boxOne .callTwo h3{
+    text-align: center;
+    font: 400 27px/40px Montserrat;
+    color: #161616;
+}
+.box-title{
+    margin-bottom: 20px;
+    text-align: left;
+    font: 700 52px/40px Raleway;
+    color: #161616;
+}
+.box-subTitle{
+    text-align: left;
+    font: 400 26px/30px Montserrat;
+    color: #00B4DB;
+    opacity: 1;
+}
+
+/* Novidades - BoxTwo */
+#boxTwo .card-deck{
+    margin-top: 75px;
+}
+#boxTwo .card-deck .card .card-img-top{
+    width: 100%;
+    height: auto;
+}
+#boxTwo .card-deck .card .card-title{
+    text-align: left;
+    font: 700 28px/32px Raleway;
+    color: #000000DE;
+}
+
+#boxTwo .card-deck .card .card-text{
+    text-align: left;
+    font: 400 12px/20px Montserrat;
+    color: #000000DE;
+}
+.btn-ver-mais{
+    padding: 0 !important;
+    text-align: left;
+    font: 600 14px/18px Montserrat;
+    color: #4D4D4D;
+    text-decoration: none;
+}
+/* Eventos - BoxThree */
+#boxThree{
+    margin-top: 195px;
+}
+#boxThree p.callThree{
+    margin: 25px 230px 90px;
+    text-align: center;
+    font: 400 21px/30px Montserrat;
+    color: #161616;
+}
+#boxThree .card-deck .card .card-img-top{
+    width: 123px;
+    height: 123px;
+    margin: 40px auto 0;
+}
+#boxThree .card-deck .card .card-title{
+    font: 700 28px/31px Raleway;
+    color: #161616;
+}
+#boxThree .card-deck .card span{
+    font: 700 16px/32px Raleway;
+    color: #161616;
+}
+#boxThree .card-deck .card .card-text{
+    margin: 0 40px;
+    font: 400 10px/15px Montserrat;
+    color: #161616;
+}
+#boxThree .card-deck .card .btn-eventos{
+    width: 125px;
+    height: 49px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    padding: 15px 0 !important;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots{
+    margin-top: 50px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background: #0087CB 0% 0% no-repeat padding-box !important;
+}
+
+/*Pagina Quem Somos*/
+/* Config All */
+.mask-capa{
+    /*background-color: #0087CB; */
+}
+#capa{
+    width: 100%;
+    height: 350px;
+    margin-bottom: 60px;
+    background-position: center !important;
+    mix-blend-mode: hard-light;
+    background-size: cover;
+}
+#boxContent{
+    margin-top: 100px;
+}
+#quem-somos .menu-interno ul{
+    margin-top: 30px;
+    border-right: 1px solid #00B4DB;
+}
+.menu-interno ul li{
+    margin-bottom: 15px;
+}
+.menu-interno ul li a{
+    text-align: left;
+    font: 400 20px/24px Montserrat;
+    color: #161616;
+}
+
+/* Quem Somos conteudo */
+#content-quem-somos{
+    margin-left: 60px;
+}
+#content-quem-somos h3{
+    margin-top: 30px;
+    text-align: left;
+    font: 700 28px/28px Montserrat;
+    color: #161616;
+}
+#content-quem-somos p{
+    margin-bottom: 0;
+    text-align: left;
+    font: 300 18px/26px Montserrat;
+    color: #161616;
+}
+#content-quem-somos .card-deck .card-img-top{
+    width: 108px;
+    height: 108px;
+    margin-top: 30px;
+}
+#content-quem-somos .card-deck .card-title{
+    font: Bold 23px/25px Raleway;
+    color: #161616;
+}
+#content-quem-somos .card-deck .card-text{
+    font: 400 17px/20px Montserrat;
+    color: #161616;
+    margin-bottom: .75rem;
+}
+#content-quem-somos .card-deck .card-hour{
+    text-align: center;
+    font: 400 13px/16px Montserrat;
+    color: #161616;
+}
+#content-quem-somos .card-deck .btn-aula{
+    width: 153px;
+    height: 44px;
+    margin: 40px 0;
+    padding: 11px 0;
+    background: #fff;
+    border: 1px solid #0087CB;
+    box-shadow: unset;
+    color: #0087CB;
+    font: 500 18px/22px Montserrat;
+    cursor: unset;
+}
+
+/* Nossa História conteudo */
+#content-nossa-historia{
+    margin-left: 60px;
+}
+#content-nossa-historia p{
+    margin-bottom: 30px;
+    text-align: left;
+    font: 300 18px/26px Montserrat;
+    color: #161616;
+}
+#boxCard{
+    margin-bottom: 30px;
+}
+#boxCard .line-left{
+    border-left: 1px solid #00B4DB;
+}
+#boxCard img{
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+#boxCard .card-body{
+    padding: 70px 0;
+}
+#boxCard p{
+    margin-top: 20px;
+    text-align: center;
+    font: 700 28px/31px Raleway;
+    color: #161616;
+}
+#boxCard .card-descricao p{
+    margin-left: 30px;
+    text-align: left;
+    font: 300 20px/30px Montserrat;
+    color: #161616;
+}
+#boxContent .obs{
+    margin: 80px 230px 0;
+    text-align: center;
+    font: 300 18px/26px Montserrat;
+    color: #161616;
+}
+
+/* Pagina Eventos */
+#eventos .call{
+    margin: 30px 235px 0;
+    text-align: center;
+    font: 300 18px/26px Montserrat;
+    color: #161616;
+}
+#content-eventos, .card-eventos{
+    margin-top: 60px;
+}
+#content-eventos .card-opt{
+    width: 155px;
+    height: auto;
+}
+#content-eventos button.btn-link .card{
+    background-color: #0087CB;
+}
+#content-eventos .card-img{   
+    filter: brightness(.35);
+}
+#content-eventos .card-img-overlay{
+    padding: 20px 0;
+}
+#content-eventos .card-title{
+    margin-top: 10px;
+    margin-bottom: 0;    
+    text-align: center;
+    font: 700 14px/16px Raleway;    
+    white-space: normal;
+    line-height: 12px;
+}
+#content-eventos .card-text{
+    text-align: center;
+    font: 700 9px/18px Raleway;    
+    white-space: normal;
+    line-height: 12px;
+}
+#content-eventos .card-body{
+    text-align: left;
+    font: 300 18px/26px Montserrat;
+    color: #161616;
+}
+section.bgground-middle{
+    background: url("../img/backgrounds/bgallpage.png") no-repeat right 500px;
+}
+/* Pagina Novidades */
+#novidades .box-subTitle{
+    margin-top: 10px;
+    font: 300 34px/26px Montserrat;
+    letter-spacing: 0;
+    color: #00B4DB;
+}
+#novidades ul li.h3{
+    padding: .5rem 1rem;
+    text-align: left;
+    font: 700 34px/40px Raleway;
+    color: #161616;
+}
+#posts-novidades{
+    margin-top: 85px ;
+}
+#posts-novidades .card{
+    margin-bottom: 30px;
+}
+#posts-novidades .card-body span{
+    text-align: left;
+    font: 500 16px/20px Montserrat;
+    color: #00B4DB;
+}
+#posts-novidades .card-title{
+    margin-top: 20px;
+    text-align: left;
+    font: 700 28px/32px Raleway;
+    color: #000000DE;
+}
+#posts-novidades .card-text{
+    margin-top: 10px;
+    text-align: left;
+    font: 400 12px/20px Montserrat;
+    letter-spacing: 0;
+    color: #000000DE;
+}
+/*#paginator-wp li a{
+    width: 38px;
+    height: 38px;
+    padding: 5px 15px;
+    border-radius: 50%;
+    text-align: left;
+    font: 400 23px/28px Montserrat;
+    letter-spacing: 0;
+    color: #161616;
+    background: transparent;
+    border: transparent;
+}*/
+.current{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: transparent linear-gradient(180deg, #00B4DB 0%, #0087CB 100%) 0% 0% no-repeat padding-box !important;
+}
+#paginator-wp .page-item .page-numbers{
+    width: 38px;
+    height: 38px;
+    padding: 5px 15px;
+    border-radius: 50%;
+    text-align: left;
+    font: 400 23px/28px Montserrat;
+    letter-spacing: 0;
+    color: #161616;
+    background: transparent;
+    border: transparent;
+}
+/* Pagina Novidades - Blog Post*/
+#novidades .menu-interno{
+    margin-top: 75px;
+    margin-left: 90px;
+    border-left: 1px solid #00B4DB;
+}
+#novidades .content-blog .capa{
+    margin-bottom: 20px;
+}
+#novidades .content-blog span{
+    text-align: left;
+    font: 600 18px/20px Montserrat;
+    color: #00B4DB;
+}
+#novidades .content h2{
+    margin: 30px 0;
+    text-align: left;
+    font: 700 32px/28px Montserrat;
+    letter-spacing: 0;
+    color: #161616;
+}
+#novidades .content h3{
+    margin: 30px 0;
+    text-align: left;
+    font: 700 28px/28px Montserrat;
+    color: #161616;
+}
+#novidades .content p{
+    margin: 30px 0;
+    text-align: left;
+    font: 300 18px/28px Montserrat;
+    color: #161616;
+}
+#posts-relacionados{
+    margin-top: 40px;
+}
+#posts-relacionados h2{
+    text-align: left;
+    font: 700 32px/28px Montserrat;
+    letter-spacing: 0;
+    color: #161616;
+}
+#posts-relacionados .card-deck{
+    margin-top: 30px;
+}
+#posts-relacionados .card-img-top{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#posts-relacionados .card-title{
+    text-align: left;
+    font: 700 24px/32px Raleway;
+    color: #000000DE;
+}
+#posts-relacionados .card-text{
+    text-align: left;
+    font: 400 12px/20px Montserrat;
+    color: #000000DE;
+}
+/* Pagina Contato */
+#contato-perfil .img-perfil img{
+    width: 163px;
+    height: 163px;
+}
+#contato-perfil ul{
+    margin-top: 16px;
+}
+#contato-perfil ul li{
+    display: block;
+    text-align: center;
+}
+#contato-perfil .contato-nome{
+    font: 700 23px/26px Montserrat;
+    color: #000000DE;
+}
+#contato-perfil .contato-profissao{
+    font: 400 16px/26px Montserrat;
+    color: #000000DE;
+}
+#contato-perfil .contato-telefone a, #contato-perfil .contato-email a{
+    font: 400 14px/25px Montserrat;
+    color: #000000DE;
+    text-decoration: none;
+}
+#contato #content-quem-somos{
+    padding-bottom: 60px;
+    border-bottom: 1px solid #AEAEAE;
+}
+#formulario{
+    margin-top: 60px;
+}
+#formulario .form-fale-conosco{
+    margin-left: 350px;
+}
+#formulario form{
+    width: 100%;
+    height: auto;
+    margin-top: 35px;
+    padding: 55px 45px 25px;
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+}
+#formulario form label{
+    text-align: left;
+    font: 400 17px/20px Montserrat;
+    color: #161616;
+}
+#formulario form input{
+    width: 100%;
+    height: 52px;
+}
+#formulario form textarea{
+    width: 100%;
+    height: 180px
+}
+#formulario .btn-fale-conosco{
+    width: 235px;
+    height: 52px;
+    margin-top: 30px;
+    font: 700 20px/24px Montserrat;
+    color: #FFFFFF;
+}
+#formulario .btn-fale-conosco .fa-arrow-circle-right{
+    font-size: 25px;
+    vertical-align: middle;
+}
+#formulario #info{
+    margin-top: 8px;
+    font: 300 9px/11px Montserrat;
+    letter-spacing: 0;
+    color: #161616;
+    opacity: 1;
+}
+
+/* Footer */
+#boxFour{
+    background: url("../img/backgrounds/rodape.png") no-repeat;
+    height: 1200px;
+}
+#boxFour .jumbotron{
+    width: 100%;
+    margin-top: 138px;
+    margin-bottom: 120px;
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 15px #00000029;
+}
+#boxFour h2{
+    margin: 0 0 30px 0;
+    font: 700 46px/54px Raleway;
+    color: #161616;
+    opacity: 1;
+}
+#boxFour .form-control{
+    width: 441px;
+    height: 56px;
+    border: 1px solid #EBEBEB;
+}
+#boxFour .btn-assinar{
+    width: 147px;
+    height: 51px;
+    margin-top: 35px;
+    font: 700 17px/19px Roboto;
+    padding: 15px 0;
+}
+#boxFour #footer-local{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#boxFour #footer-local p{
+    margin-bottom: 0;
+    text-align: left;
+    font: 300 14px/20px Montserrat;
+    color: #FBFBFB;
+}
+#boxFour #footer-redes-sociais img{
+    margin-right: 15px;
+}
+#boxFour h3{
+    text-align: left;
+    font: 700 26px/29px Raleway;
+    color: #FBFBFB;
+}
+#boxFour #footer-menu li a{
+    text-align: left;
+    font: 300 20px/29px Montserrat;
+    color: #FBFBFB;
+}
+
+#footer p{
+    margin-bottom: 0;
+    line-height: 99%;
+    font: 500 10px/20px Raleway;
+    color: #161616;
+}
+
+/* --------------- */
+@media only screen and (max-width: 1650px){
+    #body-with-background{
+        background: url("../img/backgrounds/bghome-top.png") no-repeat top right -200px, url("../img/backgrounds/body.jpg") repeat;
+        background-size: 65%, auto;
+    }
+}
+@media only screen and (max-width: 768px){
+    #body-with-background{
+        background: url("../img/backgrounds/body.jpg") repeat;
+    }
+    #menu-header div.nav-item{
+        margin-right: 0;
+    }
+    .navbar-toggler i{
+        font-size: 55px;
+    }
+    .nav-item-btn{
+        padding-left: 0;
+        margin: 0 auto;
+    }
+    #boxOne{
+        margin-top: 50px;
+    }
+    #boxOne .callOne h1{
+        font: Bold 60px/74px Raleway;
+    }
+    #boxOne .callOne h2{
+        font: 300 40px/74px Raleway;
+    }
+    #boxOne .callTwo{
+        margin-top: 50px;
+        padding: 0;
+    }
+    #boxOne .callTwo h3{        
+        font: 400 20px/40px Montserrat;
+    }
+    #boxThree p.callThree{
+        margin: 25px auto 90px;
+        text-align: center;
+        font: 400 18px/30px Montserrat;
+    }
+    #boxThree .card-deck .card .card-text{
+        margin: 0 auto;
+    }
+    .owl-theme .owl-nav.disabled+.owl-dots{
+        margin-bottom: 50px;
+    }
+    #boxFour .form-control{
+        width: 100%;
+    }
+    #boxFour{
+        height: auto;
+        background-color: #0087CB;
+    }
+    #boxFour .jumbotron{
+        width: 95%;
+        margin-top: 0;
+        margin: 25px auto 30px;
+    }
+    #boxFour .boxRodape{
+        padding: 0 50px;
+        margin-bottom: 30px;
+    }
+    #boxFour .ofcdurio{
+        margin: 30px 0;
+    } 
+    #content-quem-somos{
+        margin-bottom: 60px;
+    }   
+    #content-quem-somos .card-body{
+        padding: 0;
+    }
+    #boxContent .obs{
+        margin: 80px auto;
+    }
+    #eventos .call{
+        margin: 30px auto 0;
+        padding: 0 20px;
+    }
+    #posts-novidades, #posts-relacionados .card-deck, #formulario{
+        margin-bottom: 50px;
+    }
+    #novidades .menu-interno{
+        display: none;
+    }
+    #posts-novidades .card-img-top {
+        border-bottom-left-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+    }
+    #posts-relacionados h2{
+        margin: 0 auto;
+    }
+    .my-border-right{
+        border-right: none !important;
+    }
+    #formulario .form-fale-conosco{
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 425px){
+    #boxOne .callOne h1{
+        font: Bold 38px Raleway;
+    }
+    #boxOne .callOne h2{
+        font: 300 32px Raleway;
+    }
+    #capa{
+        height: 200px;
+        background-position: unset !important;
+    }
+    #quem-somos .menu-interno ul{
+        border-right: none;
+    }
+    #content-quem-somos, #content-nossa-historia{
+        margin-left: 0;
+    }
+    #quem-somos #boxCard{
+        padding: 0 10px;
+    }
+    #quem-somos #boxCard .card-body{
+        padding: 0;
+    }
+    #quem-somos #boxCard .line-left{
+        border-left: none;
+    }
+    #quem-somos #boxCard .card-descricao p{
+        margin-left: 0;
+        padding: 0 10px;
+        font: 300 16px/30px Montserrat;        
+    }
+    .box-title{
+        font-size: 42px !important;
+    }
+    #boxContent {
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 320px){
+    #formulario form{
+        padding: 55px 10px 25px;
+    }
+    #content-eventos .card-opt{
+        margin: 0 auto;
+    }
+}
+
+/* --------------- */
+
+/* My classes */
+.fixed-top{
+    background-color: #fff;
+}
+.selected{
+    width: 38px;
+    height: 38px;    
+    border-radius: 50%;
+    background: transparent linear-gradient(180deg, #00B4DB 0%, #0087CB 100%) 0% 0% no-repeat padding-box;
+}
+.selected a{
+    color: #fff !important;
+}
+.active a{
+    font: 700 20px/24px Montserrat !important;
+}
+.underLine{
+    border-bottom: 2px solid #00B4DB
+}
+.no-border{
+    border: none !important;
+}
+.my-border-right{
+    border-right: 1px solid #00B4DB;
+}
+.border-8{
+    border-radius: 8px !important;
+}
+.btn-padrao{
+    font: 700 15px/20px Roboto;
+    color: #FFFFFF !important;
+    box-shadow: 0px 4px 6px #00000029;
+    text-align: center;
+    background: transparent linear-gradient(66deg, #0087CB 0%, #00B4DB 100%) 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 4px 6px #00000029;
+    border: none;
+}
+.btn-padrao:hover{
+    color: #fff;
+}
+.btn-padrao:active{
+    border-color: transparent !important;
+}
+.no-underline{
+    text-decoration: none !important;
+    color: transparent !important;
+}
+div.wpcf7-mail-sent-ok {
+    border: 2px solid #D4EDDA;
+    background-color: #D4EDDA;
+    text-align: center;
+}
