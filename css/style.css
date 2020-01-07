@@ -1,6 +1,5 @@
 /* Importações */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Raleway:300,400,500,700,800&display=swap');
-@import 'screen.css';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Raleway:300,400,500,700,800|Roboto:700&display=swap');
 /*
 Montserrat
 Light -> 300
@@ -34,7 +33,7 @@ Bold -> 700
 }
 .nav-item-btn{
     padding-top: 30px;
-    padding-left: 50px;
+    padding-left: 104px;
 }
 #btn-contato-header{
     padding: 16px 30px !important;
@@ -93,7 +92,7 @@ Bold -> 700
     color: #FFFFFF;
 }
 #boxOne .callTwo{
-    margin-top: 275px;
+    margin-top: 375px;
     margin-bottom: 130px;
     padding: 0 140px;
 }
@@ -166,7 +165,7 @@ Bold -> 700
 }
 #boxThree .card-deck .card .card-text{
     margin: 0 40px;
-    font: 400 10px/15px Montserrat;
+    font: 400 13.7px/15px Montserrat;
     color: #161616;
 }
 #boxThree .card-deck .card .btn-eventos{
@@ -187,13 +186,15 @@ Bold -> 700
 /*Pagina Quem Somos*/
 /* Config All */
 .mask-capa{
-    background-color: #0087CB; 
+    /*background-color: #0087CB; */
 }
 #capa{
     width: 100%;
     height: 350px;
     margin-bottom: 60px;
+    background-position: center !important;
     mix-blend-mode: hard-light;
+    background-size: cover;
 }
 #boxContent{
     margin-top: 100px;
@@ -239,6 +240,7 @@ Bold -> 700
 #content-quem-somos .card-deck .card-text{
     font: 400 17px/20px Montserrat;
     color: #161616;
+    margin-bottom: .75rem;
 }
 #content-quem-somos .card-deck .card-hour{
     text-align: center;
@@ -255,6 +257,7 @@ Bold -> 700
     box-shadow: unset;
     color: #0087CB;
     font: 500 18px/22px Montserrat;
+    cursor: unset;
 }
 
 /* Nossa História conteudo */
@@ -311,11 +314,11 @@ Bold -> 700
     margin-top: 60px;
 }
 #content-eventos .card-opt{
-    width: 160px;
+    width: 155px;
     height: auto;
 }
-#content-eventos button.btn-link:active{
-    filter: hue-rotate(190deg);
+#content-eventos button.btn-link .card{
+    background-color: #0087CB;
 }
 #content-eventos .card-img{   
     filter: brightness(.35);
@@ -382,7 +385,25 @@ section.bgground-middle{
     letter-spacing: 0;
     color: #000000DE;
 }
-#posts-novidades nav ul li a{
+/*#paginator-wp li a{
+    width: 38px;
+    height: 38px;
+    padding: 5px 15px;
+    border-radius: 50%;
+    text-align: left;
+    font: 400 23px/28px Montserrat;
+    letter-spacing: 0;
+    color: #161616;
+    background: transparent;
+    border: transparent;
+}*/
+.current{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: transparent linear-gradient(180deg, #00B4DB 0%, #0087CB 100%) 0% 0% no-repeat padding-box !important;
+}
+#paginator-wp .page-item .page-numbers{
     width: 38px;
     height: 38px;
     padding: 5px 15px;
@@ -485,6 +506,9 @@ section.bgground-middle{
 #formulario{
     margin-top: 60px;
 }
+#formulario .form-fale-conosco{
+    margin-left: 350px;
+}
 #formulario form{
     width: 100%;
     height: auto;
@@ -505,14 +529,14 @@ section.bgground-middle{
     width: 100%;
     height: 180px
 }
-#formulario button.btn-fale-conosco{
+#formulario .btn-fale-conosco{
     width: 235px;
     height: 52px;
     margin-top: 30px;
     font: 700 20px/24px Montserrat;
     color: #FFFFFF;
 }
-#formulario button.btn-fale-conosco .fa-arrow-circle-right{
+#formulario .btn-fale-conosco .fa-arrow-circle-right{
     font-size: 25px;
     vertical-align: middle;
 }
@@ -586,7 +610,17 @@ section.bgground-middle{
 }
 
 /* --------------- */
-
+@media only screen and (max-width: 1650px){
+    #body-with-background{
+        background: url("../img/backgrounds/bghome-top.png") no-repeat top right -200px, url("../img/backgrounds/body.jpg") repeat;
+        background-size: 65%, auto;
+    }
+}
+@media only screen and (min-width: 994px) and (max-width: 1200px){
+    #menu-header div.nav-item{
+        margin-right: 0;
+    }
+}
 @media only screen and (max-width: 768px){
     #body-with-background{
         background: url("../img/backgrounds/body.jpg") repeat;
@@ -600,6 +634,11 @@ section.bgground-middle{
     .nav-item-btn{
         padding-left: 0;
         margin: 0 auto;
+    }
+    #capa{
+        height: 100px;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
     }
     #boxOne{
         margin-top: 50px;
@@ -638,7 +677,7 @@ section.bgground-middle{
     #boxFour .jumbotron{
         width: 95%;
         margin-top: 0;
-        margin: 0 auto 30px;
+        margin: 25px auto 30px;
     }
     #boxFour .boxRodape{
         padding: 0 50px;
@@ -656,17 +695,70 @@ section.bgground-middle{
     #boxContent .obs{
         margin: 80px auto;
     }
+    #eventos .call{
+        margin: 30px auto 0;
+        padding: 0 20px;
+    }
+    #posts-novidades, #posts-relacionados .card-deck, #formulario{
+        margin-bottom: 50px;
+    }
+    #novidades .menu-interno{
+        display: none;
+    }
+    #posts-novidades .card-img-top {
+        border-bottom-left-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+    }
+    #posts-relacionados h2{
+        margin: 0 auto;
+    }
+    .my-border-right{
+        border-right: none !important;
+    }
+    #formulario .form-fale-conosco{
+        margin-left: 0;
+    }
 }
 @media only screen and (max-width: 425px){
-    #capa{
-        height: 200px;
-        background-position: unset !important;
+    #boxOne .callOne h1{
+        font: Bold 38px Raleway;
+    }
+    #boxOne .callOne h2{
+        font: 300 32px Raleway;
     }
     #quem-somos .menu-interno ul{
         border-right: none;
     }
     #content-quem-somos, #content-nossa-historia{
         margin-left: 0;
+    }
+    #quem-somos #boxCard{
+        padding: 0 10px;
+    }
+    #quem-somos #boxCard .card-body{
+        padding: 0;
+    }
+    #quem-somos #boxCard .line-left{
+        border-left: none;
+    }
+    #quem-somos #boxCard .card-descricao p{
+        margin-left: 0;
+        padding: 0 10px;
+        font: 300 16px/30px Montserrat;        
+    }
+    .box-title{
+        font-size: 42px !important;
+    }
+    #boxContent {
+        margin-top: 0;
+    }
+}
+@media only screen and (max-width: 320px){
+    #formulario form{
+        padding: 55px 10px 25px;
+    }
+    #content-eventos .card-opt{
+        margin: 0 auto;
     }
 }
 
@@ -698,7 +790,7 @@ section.bgground-middle{
     border-right: 1px solid #00B4DB;
 }
 .border-8{
-    border-radius: 8px;
+    border-radius: 8px !important;
 }
 .btn-padrao{
     font: 700 15px/20px Roboto;
@@ -714,4 +806,13 @@ section.bgground-middle{
 }
 .btn-padrao:active{
     border-color: transparent !important;
+}
+.no-underline{
+    text-decoration: none !important;
+    color: transparent !important;
+}
+div.wpcf7-mail-sent-ok {
+    border: 2px solid #D4EDDA;
+    background-color: #D4EDDA;
+    text-align: center;
 }
