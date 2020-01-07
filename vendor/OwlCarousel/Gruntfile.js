@@ -12,7 +12,7 @@ module.exports = function(grunt) {
 
 	grunt
 		.initConfig({
-			pkg: grunt.file.readJSON('package.json'),
+			pkg: grunt.file.readJSON('composer.json'),
 			app: grunt.file.readJSON('_config.json'),
 			banner: '/**\n' + ' * Owl Carousel v<%= pkg.version %>\n'
 				+ ' * Copyright 2013-<%= grunt.template.today("yyyy") %> <%= pkg.author.name %>\n'
